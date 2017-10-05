@@ -52,5 +52,24 @@ table {
 /* CSS Reset Ends */
 
 /* Header Ste */
-
+.header-mask {
+    background-image: url('../assets/img/content/nav/header-logo-mask.png');
+    position: absolute;
+    height: 72px;
+    width: 72px;
+    z-index: 800;
+    background-color: white;
+}
+.header-image {
+    background-image: url('../assets/img/content/nav/header-logo-i.svg');
+    position: absolute;
+    height: 72px;
+    width: 72px;
+    z-index: 1000;
+    margin: 8px;
+}
+.header {
+    background-color: #E0EBE8;
+    height: 100px;
+}
 /* Header San */
