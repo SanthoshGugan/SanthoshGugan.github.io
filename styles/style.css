@@ -51,7 +51,17 @@ table {
 
 /* CSS Reset Ends */
 
+/*Default body styles from sean haplin website*/
+body{
+	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #545454;
+    background-color: #fff
+}
+
 /* Header Ste */
+<<<<<<< HEAD
 .header-mask {
     background-image: url('../assets/img/content/nav/header-logo-mask.png');
     position: absolute;
@@ -73,3 +83,22 @@ table {
     height: 100px;
 }
 /* Header San */
+=======
+
+/* Header San */
+.headerLinks{
+	padding-right: 23%;
+}
+
+.nav li a{
+	text-decoration: none;
+	color: #45b29a;
+	font-weight: 400;
+	font-size: 150%;
+}
+.nav li a:hover, .nav li.active a,.nav li a:focus{
+	background: transparent;
+	background-color: white !important;
+	color: #21564b;
+}
+>>>>>>> 9d9aeef27ef0fc288c34313b95aa249e8b6c7252
