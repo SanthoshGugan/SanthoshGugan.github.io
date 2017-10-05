@@ -73,7 +73,7 @@ body{
 	font-weight: 400;
 	font-size: 150%;
 }
-.nav li a:hover, .nav li.active a{
+.nav li a:hover, .nav li.active a,.nav li a:focus{
 	background: transparent;
 	background-color: white !important;
 	color: #21564b;
