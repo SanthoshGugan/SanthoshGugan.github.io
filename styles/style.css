@@ -61,6 +61,29 @@ body{
 }
 
 /* Header Ste */
+<<<<<<< HEAD
+.header-mask {
+    background-image: url('../assets/img/content/nav/header-logo-mask.png');
+    position: absolute;
+    height: 72px;
+    width: 72px;
+    z-index: 800;
+    background-color: white;
+}
+.header-image {
+    background-image: url('../assets/img/content/nav/header-logo-i.svg');
+    position: absolute;
+    height: 72px;
+    width: 72px;
+    z-index: 1000;
+    margin: 8px;
+}
+.header {
+    background-color: #E0EBE8;
+    height: 100px;
+}
+/* Header San */
+=======
 
 /* Header San */
 .headerLinks{
@@ -78,3 +101,4 @@ body{
 	background-color: white !important;
 	color: #21564b;
 }
+>>>>>>> 9d9aeef27ef0fc288c34313b95aa249e8b6c7252
