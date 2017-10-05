@@ -61,21 +61,14 @@ body{
 }
 
 /* Header Ste */
-.header-mask {
-    background-image: url('../assets/img/content/nav/header-logo-mask.png');
-    position: absolute;
-    height: 72px;
-    width: 72px;
-    z-index: 800;
-    background-color: white;
-}
 .header-image {
-    background-image: url('../assets/img/content/nav/header-logo-i.svg');
+    background-image: url(../assets/img/content/nav/header-logo-i.svg);
+    background-position: -3% -8%;
     position: absolute;
     height: 72px;
     width: 72px;
-    z-index: 1000;
-    margin: 8px;
+    margin: 13px;
+    background-color: #f6f9f8;
 }
 .header {
     background-color: #E0EBE8;
@@ -94,6 +87,10 @@ body{
 .header.vanish{
 	transform: translateY(-200px);
 	opacity: 0.1;
+}
+
+.clip-circle {
+  clip-path: circle(35px at center);
 }
 
 /* Header San */
