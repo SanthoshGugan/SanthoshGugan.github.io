@@ -51,6 +51,30 @@ table {
 
 /* CSS Reset Ends */
 
+/*Default body styles from sean haplin website*/
+body{
+	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #545454;
+    background-color: #fff
+}
+
 /* Header Ste */
 
 /* Header San */
+.headerLinks{
+	padding-right: 23%;
+}
+
+.nav li a{
+	text-decoration: none;
+	color: #45b29a;
+	font-weight: 400;
+	font-size: 150%;
+}
+.nav li a:hover, .nav li.active a{
+	background: transparent;
+	background-color: white !important;
+	color: #21564b;
+}
