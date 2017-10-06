@@ -60,7 +60,7 @@ body{
     background-color: #fff
 }
 
-/* Header Ste */
+
 .header-image {
     background-image: url(../assets/img/content/nav/header-logo-i.svg);
     background-position: -3% -8%;
@@ -98,7 +98,7 @@ body{
   clip-path: circle(35px at center);
 }
 
-/* Header San */
+
 .headerLinks{
 	padding-right: 2%;
     padding-top: 2.5%;
@@ -124,7 +124,14 @@ body{
 .header.whiteVanish .nav li a:hover,.header.whiteVanish .nav li.active a,.header.whiteVanish .nav li a:focus{
 	background-color: white !important;
 }
-/*mainImage*/
+/*******************************************************************************/
+
+/*Main Image*/
+/*Santhosh */
 .mainImage{
 	height: 900px;
 }
+
+/*Stephen*/
+
+
