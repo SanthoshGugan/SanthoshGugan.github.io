@@ -57,7 +57,7 @@ body{
     font-size: 14px;
     line-height: 1.42857143;
     color: #545454;
-    background-color: #fff
+	background-color: #E0EBE8 !important;
 }
 
 
@@ -128,15 +128,14 @@ body{
 /*Main Image*/
 /*Santhosh */
 .mainImage{
-	height: 900px;
-	background-color: #E0EBE8 !important;
+	height: 100%;
 	padding: 0 !important;
 	margin: auto -15px;
 	transition: all 2s;
+	display: inline;
 }
 
 .mainImage img{
-	margin-top: 50%;
 }
 
 /*Stephen*/
