@@ -130,7 +130,7 @@ body{
 /*Santhosh */
 .mainImage{
 	height: 900px;
-	background-color: #E0EBE8;
+	background-color: #E0EBE8 !important;
 	padding: 0 !important;
 	margin: auto -15px;
 }
