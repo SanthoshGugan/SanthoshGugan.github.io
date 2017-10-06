@@ -104,6 +104,7 @@ body{
 	color: #45b29a;
 	font-weight: 400;
 	font-size: 150%;
+	transition: all 1s;
 }
 .nav li a:hover, .nav li.active a,.nav li a:focus{
 	background: transparent;
