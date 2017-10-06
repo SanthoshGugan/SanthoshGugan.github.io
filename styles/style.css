@@ -146,3 +146,13 @@ body{
 	padding-right: 0px !important;
 }
 
+#im-sean {
+    display: block;
+    margin: 0 auto;
+    padding-top: 217px;
+}
+
+p.im-sean-text.text-center {
+    margin-top: 38px;
+    color: #45b29a;
+}
