@@ -130,8 +130,12 @@ body{
 /*Santhosh */
 .mainImage{
 	height: 900px;
+	background-color: #E0EBE8;
 }
 
 /*Stephen*/
-
+.container-fluid {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
 
