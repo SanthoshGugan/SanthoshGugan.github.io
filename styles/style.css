@@ -155,3 +155,20 @@ p.im-sean-text.text-center {
     margin-top: 38px;
     color: #45b29a;
 }
+
+.cloud {
+	position: absolute;
+	background-image: url('../assets/img/ui/cloud.svg');
+	width: 150px;
+    height: 43px;
+}
+
+.left-cloud {
+	top: 47%;
+    left: 18%;
+}
+
+.right-cloud {
+    top: 23%;
+    left: 72%;
+}
