@@ -67,7 +67,7 @@ body{
     position: absolute;
     height: 72px;
     width: 72px;
-    margin: 13px;
+    margin: -2px;
     background-color: #f6f9f8;
 }
 .header {
