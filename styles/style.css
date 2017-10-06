@@ -80,7 +80,6 @@ body{
     -ms-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s;
-    opacity: 0.9;
 
 }
 
@@ -133,9 +132,11 @@ body{
 	background-color: #E0EBE8 !important;
 	padding: 0 !important;
 	margin: auto -15px;
+	transition: all 2s;
 }
 
 .mainImage img{
+	margin-top: 50%;
 }
 
 /*Stephen*/
