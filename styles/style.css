@@ -130,6 +130,14 @@ body{
 /*Santhosh */
 .mainImage{
 	height: 900px;
+	background-color: #E0EBE8;
+	padding: 0 !important;
+	margin: auto -15px;
+}
+
+.mainImage img{
+	background-size: cover;
+	margin: auto 0;
 }
 
 /*Stephen*/
