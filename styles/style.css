@@ -171,3 +171,11 @@ p.im-sean-text.text-center {
     top: 23%;
     left: 72%;
 }
+
+/* Stephen Media Queries */
+@media (max-width: 995px) {
+	.left-cloud {
+		top: 50%;
+		left: -8%;
+	}
+}
