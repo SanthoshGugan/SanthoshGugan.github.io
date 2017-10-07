@@ -73,7 +73,7 @@ body{
 .header {
     background-color: #E0EBE8;
     /*height: 100px;*/
-    padding: 2% 14%;
+    padding: 2% 8% 2% 14%;
     z-index: 999;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -160,6 +160,7 @@ p.im-sean-text.text-center {
 	background-image: url('../assets/img/ui/cloud.svg');
 	width: 150px;
     height: 43px;
+	transition: all 0.5s ease-in-out;
 }
 
 .left-cloud {
@@ -177,5 +178,32 @@ p.im-sean-text.text-center {
 	.left-cloud {
 		top: 50%;
 		left: -8%;
+	}
+
+	.right-cloud {
+		top: 16%;
+		left: 82%;
+	}
+	body {
+		overflow-x: hidden;
+	}
+}
+@media (max-width: 450px) {
+	.right-cloud {
+		top: 16%;
+		left: 72%;
+	}
+	body {
+		overflow-x: hidden;
+	}
+}
+/*Mobile*/
+@media (max-width: 765px ){
+	.nav li a{
+		font-size: 100%;
+	}
+
+	.header{
+		padding-left: 1%;
 	}
 }
