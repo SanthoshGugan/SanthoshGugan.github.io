@@ -73,7 +73,7 @@ body{
 .header {
     background-color: #E0EBE8;
     /*height: 100px;*/
-    padding: 2% 14%;
+    padding: 2% 8% 2% 14%;
     z-index: 999;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -170,4 +170,15 @@ p.im-sean-text.text-center {
 .right-cloud {
     top: 23%;
     left: 72%;
+}
+
+/*Mobile*/
+@media (max-width: 765px ){
+	.nav li a{
+		font-size: 100%;
+	}
+
+	.header{
+		padding-left: 1%;
+	}
 }
