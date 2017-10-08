@@ -177,6 +177,21 @@ p.im-sean-text.text-center {
 /*Santhosh*/
 
 /*Stephen*/
+.main-content-image {
+    width: 100% !important;
+    background-image: url(../assets/img/content/nav/header-logo-i.svg);
+    background-position: 82% -135%;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 24em;
+    margin: 0px auto;
+    background-color: #f6f9f8;
+    background-size: 44%;
+}
+
+.clip-circle-big {
+  clip-path: circle(74px at center);
+}
 
 /* Stephen Media Queries */
 @media (max-width: 995px) {
