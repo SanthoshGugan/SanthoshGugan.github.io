@@ -190,7 +190,6 @@ p.im-sean-text.text-center {
 }
 @media (max-width: 450px) {
 	.right-cloud {
-		top: 16%;
 		left: 72%;
 	}
 	body {
