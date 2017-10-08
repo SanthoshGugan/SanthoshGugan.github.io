@@ -169,7 +169,7 @@ p.im-sean-text.text-center {
 }
 
 .right-cloud {
-    top: 23%;
+    top: 30%;
     left: 72%;
 }
 
@@ -181,19 +181,35 @@ p.im-sean-text.text-center {
 	}
 
 	.right-cloud {
-		top: 16%;
+		top: 24%;
 		left: 82%;
 	}
 	body {
 		overflow-x: hidden;
 	}
+	.mainImage .mountain-img {
+		padding: 0px;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		transition: all 1s;
+	}
 }
 @media (max-width: 450px) {
 	.right-cloud {
+		top: 24%;
 		left: 72%;
 	}
 	body {
 		overflow-x: hidden;
+	}
+	#im-sean {
+    	width: 60%;
+	}
+	.mainImage .mountain-img {
+		padding: 0px;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		transition: all 1s;
 	}
 }
 /*Mobile*/
