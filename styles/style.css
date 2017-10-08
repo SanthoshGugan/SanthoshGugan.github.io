@@ -193,6 +193,10 @@ p.im-sean-text.text-center {
   clip-path: circle(74px at center);
 }
 
+.main-content-div {
+	padding: 0px !important;
+}
+
 /* Stephen Media Queries */
 @media (max-width: 995px) {
 	.left-cloud {
