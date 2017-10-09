@@ -173,12 +173,22 @@ p.im-sean-text.text-center {
 }
 
 /*Main Content*/
-.mainContainer{
-
+.mainContent{
+	background-color: white;
 }
 /*Santhosh*/
 .breaker{
-	background-color: violet;
+}
+
+.dots{
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.dots img{
+	display: inline;
+
+
 }
 /*Stephen*/
 .main-content-image {
