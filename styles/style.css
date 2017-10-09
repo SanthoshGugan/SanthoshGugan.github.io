@@ -51,6 +51,9 @@ table {
 
 /* CSS Reset Ends */
 
+pad0{
+	padding: 0;
+}
 /*Default body styles from sean haplin website*/
 body{
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
