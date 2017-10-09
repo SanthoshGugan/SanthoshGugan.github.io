@@ -196,6 +196,18 @@ p.im-sean-text.text-center {
 
 
 }
+
+
+/*Hi Section*/
+.hi h3{
+	font-size: 2em;
+	font-weight: 600;
+	color: #45b29a;
+	margin-bottom: 2%;
+}
+.hi span{
+	font-size: 1.4em;
+}
 /*Stephen*/
 .main-content-image {
     width: 15em !important;
