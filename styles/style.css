@@ -228,6 +228,28 @@ p.im-sean-text.text-center {
 	padding: 0px !important;
 }
 
+/* Hi Text */
+.hi_desc {
+	margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    font-size: 17px;
+	margin-top: 25px;
+}
+
+.hi_sec {
+	font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	margin-bottom: 75px;
+}
+
+.hi_text {
+	margin: 0 auto;
+	width: 33px;
+	font-size: 2em;
+    color: #45b29a;
+}
+
+
 /* Stephen Media Queries */
 @media (max-width: 995px) {
 	.left-cloud {
