@@ -173,16 +173,18 @@ p.im-sean-text.text-center {
 }
 
 /*Main Content*/
+.mainContainer{
 
+}
 /*Santhosh*/
-
+.breaker{
+	background-color: violet;
+}
 /*Stephen*/
 .main-content-image {
     width: 100em !important;
     background-image: url(../assets/img/content/nav/header-logo-i.svg);
-    background-position: 82% -135%;
     background-repeat: no-repeat;
-    position: absolute;
     height: 24em;
     margin: 0px auto;
     background-color: #f6f9f8;
@@ -242,7 +244,6 @@ p.im-sean-text.text-center {
 		transition: all 1s;
 	}
 	div .mainImage {
-		position: absolute;
 		top: -6%;
 		-webkit-transition: all 1s;
 		-moz-transition: all 1s;
