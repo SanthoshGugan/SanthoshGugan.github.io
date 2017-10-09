@@ -132,9 +132,8 @@ body{
 /*Santhosh */
 .mainImage{
 	padding: 0 !important;
-	margin: auto -15px;
+	margin: 0 -15px !important;
 	transition: all 2s;
-	display: inline;
 }
 
 .mainImage img{
