@@ -182,13 +182,15 @@ p.im-sean-text.text-center {
 }
 /*Stephen*/
 .main-content-image {
-    width: 100em !important;
+    width: 16em !important;
     background-image: url(../assets/img/content/nav/header-logo-i.svg);
+    background-position: -11% -12%;
     background-repeat: no-repeat;
-    height: 24em;
-    margin: 0px auto;
+    height: 16em;
+    margin: auto;
     background-color: #f6f9f8;
-    background-size: 44%;
+    background-size: 308%;
+    float: left;
 }
 
 .clip-circle-big {
@@ -244,6 +246,7 @@ p.im-sean-text.text-center {
 		transition: all 1s;
 	}
 	div .mainImage {
+		position: absolute;
 		top: -6%;
 		-webkit-transition: all 1s;
 		-moz-transition: all 1s;
