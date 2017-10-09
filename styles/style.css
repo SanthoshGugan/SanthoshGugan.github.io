@@ -178,7 +178,7 @@ p.im-sean-text.text-center {
 
 /*Stephen*/
 .main-content-image {
-    width: 100% !important;
+    width: 100em !important;
     background-image: url(../assets/img/content/nav/header-logo-i.svg);
     background-position: 82% -135%;
     background-repeat: no-repeat;
