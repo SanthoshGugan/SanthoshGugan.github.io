@@ -51,6 +51,9 @@ table {
 
 /* CSS Reset Ends */
 
+pad0{
+	padding: 0;
+}
 /*Default body styles from sean haplin website*/
 body{
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
@@ -129,9 +132,8 @@ body{
 /*Santhosh */
 .mainImage{
 	padding: 0 !important;
-	margin: auto -15px;
+	margin: 0 -15px !important;
 	transition: all 2s;
-	display: inline;
 }
 
 .mainImage img{
@@ -173,12 +175,22 @@ p.im-sean-text.text-center {
 }
 
 /*Main Content*/
-.mainContainer{
-
+.mainContent{
+	background-color: white;
 }
 /*Santhosh*/
 .breaker{
-	background-color: violet;
+}
+
+.dots{
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.dots img{
+	display: inline;
+
+
 }
 /*Stephen*/
 .main-content-image {
