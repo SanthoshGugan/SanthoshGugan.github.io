@@ -59,7 +59,7 @@ body{
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #545454;
+    color: #545454 !important;
 	background-color: #E0EBE8 !important;
 }
 
@@ -181,9 +181,11 @@ p.im-sean-text.text-center {
 /*Main Content*/
 .mainContent{
 	background-color: white;
+	padding-top: 2.5%;
 }
 /*Santhosh*/
 .breaker{
+	margin: 7.5% 0 0 0;
 }
 
 .dots{
@@ -201,9 +203,9 @@ p.im-sean-text.text-center {
 /*Hi Section*/
 .hi h3{
 	font-size: 2em;
-	font-weight: 600;
+	font-weight: 500;
 	color: #45b29a;
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 }
 .hi span{
 	font-size: 1.4em;
@@ -249,6 +251,40 @@ p.im-sean-text.text-center {
     color: #45b29a;
 }
 
+/*What Can I Do*/
+.circle{
+	background-color: #E0EBE8;
+	width: 77px;
+	height: 77px;
+	border-radius: 100px;
+	border: 1px solid #E0EBE8;
+	background: url('../assets/img/content/home/what-i-do/design-icons-vert.png') no-repeat;
+	transition: all 2s;
+
+}
+
+.circleNext{
+	background-position: 0% 50%;
+}
+
+.circleAnother{
+	background-position: 0% 98%;
+}
+/*Mobile*/
+@media (max-width: 767px){
+	.nav li a{
+		font-size: 100%;
+	}
+
+	.header{
+		padding-left: 1%;
+	}
+
+	.hiText{
+		margin: 0 auto;
+		width: 95% !important;
+	}
+}
 
 /* Stephen Media Queries */
 @media (max-width: 995px) {
@@ -304,14 +340,21 @@ p.im-sean-text.text-center {
 	.jumbotron {
 		background-color: #E0EBE8 !important;
 	}
-}
-/*Mobile*/
-@media (max-width: 765px ){
-	.nav li a{
-		font-size: 100%;
-	}
 
-	.header{
-		padding-left: 1%;
+	.breaker{
+		margin-top: 15%;
 	}
 }
+
+
+/*Tab*/
+@media (max-width: 1023px){
+		.hiText{
+		margin: 0 auto;
+		width: 60%;
+	}
+}
+
+
+
+
