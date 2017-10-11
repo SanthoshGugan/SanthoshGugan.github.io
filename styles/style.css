@@ -310,6 +310,20 @@ h3{
 .whatCanIDo .dots img{	
 	margin-right: -8px;
 }
+
+/*What can i do section 2*/
+.whatCanIDo .text, .whatCanIDo .image{
+	outline: solid;
+}
+.whatCanIDo .text{
+	margin: 5% 0;
+}
+
+.sprint2{
+	background-image: url('../assets/img/content/home/what-i-do/dev-icons-vert.png') !important;
+	background-repeat: no-repeat;
+	margin: 75px 0;
+}
 /*Mobile*/
 @media (max-width: 767px){
 	.nav li a{
