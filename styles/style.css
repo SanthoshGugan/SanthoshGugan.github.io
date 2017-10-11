@@ -311,6 +311,10 @@ h3{
 	margin-right: -8px;
 }
 
+.whatCanIDo .image{
+	margin: 6% 0;
+	
+}
 /*What can i do section 2*/
 .whatCanIDo .text, .whatCanIDo .image{
 	outline: solid;
@@ -319,10 +323,27 @@ h3{
 	margin: 5% 0;
 }
 
+.image .dotsOver{
+	background-image: url('../assets/img/content/home/what-i-do/line-bg.png');
+	background-repeat: repeat-x;
+	background-size: 30px 10px;
+	background-position: 50% 25%;
+	width: 50px;
+	height: 25px;
+}
+
 .sprint2{
 	background-image: url('../assets/img/content/home/what-i-do/dev-icons-vert.png') !important;
 	background-repeat: no-repeat;
-	margin: 75px 0;
+	margin: 40px 50px 0 0;
+
+}
+
+.me-dev{
+	background: url('../assets/img/content/home/what-i-do/me-dev.svg') no-repeat;
+	background-size: contain;
+	width: 145px;
+	height: 185px;
 }
 /*Mobile*/
 @media (max-width: 767px){
