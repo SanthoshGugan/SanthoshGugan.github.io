@@ -51,8 +51,19 @@ table {
 
 /* CSS Reset Ends */
 
-pad0{
-	padding: 0;
+.pad0{
+	padding: 0 !important;
+}
+
+.m0{
+	margin: 0 !important;
+}
+.mL0{
+	margin-left: 0 !important;
+}
+
+.mR0{
+	margin-right: 0 !important;
 }
 /*Default body styles from sean haplin website*/
 body{
@@ -201,13 +212,13 @@ p.im-sean-text.text-center {
 
 
 /*Hi Section*/
-.hi h3{
+h3{
 	font-size: 2em;
-	font-weight: 500;
-	color: #45b29a;
-	margin-bottom: 5%;
+	font-weight: 600 !important;
+	color: #45b29a !important;
+	margin-bottom: 5% !important;
 }
-.hi span{
+.seanText{
 	font-size: 1.4em;
 }
 /*Stephen*/
@@ -254,6 +265,9 @@ p.im-sean-text.text-center {
 }
 
 /*What Can I Do*/
+.whatCanIDo{
+	margin-top: 5%;
+}
 .headings{
 	color: #1e836c;
     text-align: center;
@@ -262,13 +276,15 @@ p.im-sean-text.text-center {
 }
 .circle{
 	background-color: #E0EBE8;
-	width: 77px;
-	height: 77px;
+	width: 77px !important;
+	height: 77px !important;
 	border-radius: 100px;
 	border: 1px solid #E0EBE8;
 	background: url('../assets/img/content/home/what-i-do/design-icons-vert.png') no-repeat;
 	transition: all 2s;
 	display: inline-block;
+	margin-top: -25px;
+	padding-left: 0px !important;
 
 }
 
@@ -280,7 +296,10 @@ p.im-sean-text.text-center {
 	background-position: 0% 98%;
 }
 
-
+.dotpos{
+	margin: 12% 0;
+	margin-left: -28px !important;
+}
 .whatCanIDo .dots{
 	/*position: relative;*/
 	/*top: 105px;
@@ -288,9 +307,8 @@ p.im-sean-text.text-center {
 
 }
 
-.whatCanIDo .dots img{
-	margin-right: -5px;
-
+.whatCanIDo .dots img{	
+	margin-right: -8px;
 }
 /*Mobile*/
 @media (max-width: 767px){
