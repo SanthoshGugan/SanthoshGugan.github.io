@@ -430,6 +430,51 @@ h3{
 	}
 }
 
+/* I Can Help */
+button.message-button {
+	width: 200px;
+    height: 46px;
+	background-color: #45b29a;
+	color: #1b7f69;
+	border-color: transparent;
+	transition: all 0.5s;
+	display: block;
+    margin: 0 auto;
+}
 
+button.message-button:hover {
+	background-color: #3ea08a !important;
+	color: #1b7f69 !important;
+	border-color: transparent;
+	transition: all 0.5s;
+}
 
+.mail-me {
+	padding-right: 12px;
+}
 
+.mail-me-img {
+	padding-bottom: 3px;
+}
+
+.message-text {
+	text-transform: uppercase;
+	font-size: 16px;
+    font-weight: 300;
+	padding-right: 15px;
+	color: inherit;
+}
+
+.button-link:hover, .button-link:active, .button-link:focus, .button-link:visited {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+
+button a {
+	color: inherit;
+}
+
+*:focus {
+    outline: none !important;
+}
