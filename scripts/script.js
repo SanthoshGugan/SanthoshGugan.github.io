@@ -57,8 +57,8 @@ function init(){
 
 	});
 
-	intervalID1 = window.setInterval(changeSprint1Position,3000);
-	intervalID2 = window.setInterval(changeSprint2Position,3000);
+	intervalID1 = window.setInterval(changeSprint1Position,8000);
+	intervalID2 = window.setInterval(changeSprint2Position,9000);
 }
 
 window.onload = init();
