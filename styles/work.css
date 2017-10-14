@@ -60,6 +60,25 @@
 	}
 
 /******************************************************************/
+/* Main Image  */
+/******************************************************************/
+	/*whatIHaveBeen*/
+		.whatIHaveBeen{
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.pencilWrapper{
+			width: 150px;
+		    height: 150px;
+		    border-radius: 100px;
+		    border: 1px solid #ccc;
+		    margin: 0 auto;
+		    background: url('../assets/img/content/home/what-i-do/design-icons-vert.png') no-repeat;
+		    background-size: cover;
+		}
+
+/******************************************************************/
 /* Tab */
 /******************************************************************/
 @media(max-width: 1023px) and (min-width: 768px){
