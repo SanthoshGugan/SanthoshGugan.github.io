@@ -2,6 +2,9 @@
 	background-color: #545454;
 }
 
+.whiteBg{
+	background-color: white !important;
+}
 
 /****************************************************************************/
 /* Main Image*/
@@ -64,18 +67,33 @@
 /******************************************************************/
 	/*whatIHaveBeen*/
 		.whatIHaveBeen{
-			margin: 0 auto;
+			margin: 50px auto;
 			text-align: center;
 		}
 
 		.pencilWrapper{
 			width: 150px;
 		    height: 150px;
-		    border-radius: 100px;
-		    border: 1px solid #ccc;
 		    margin: 0 auto;
-		    background: url('../assets/img/content/home/what-i-do/design-icons-vert.png') no-repeat;
+		    background: url('../assets/img/content/home/work/pencil.svg') no-repeat;
 		    background-size: cover;
+		}
+
+		.whatIHaveBeen .seanText{
+			padding: 0 10%;
+		}
+
+		.whatIHaveBeen .seanText a{
+			border-bottom: 1px solid #45b29a;
+			margin-bottom: 3px;
+			text-decoration: none;
+			color: #45b29a;
+			transition: all 0.5s;
+		}
+
+		.whatIHaveBeen .seanText a:hover{
+			border-bottom: 1px solid #29685a;
+			color: #29685a;
 		}
 
 /******************************************************************/
@@ -111,6 +129,9 @@
 	.right-cloud{		
 		top: 30%;
 		right: -10%;
+	}
+	.whatIHaveBeen .seanText{
+		padding: 0 20%
 	}
 }
 
