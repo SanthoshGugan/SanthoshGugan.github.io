@@ -42,6 +42,23 @@
 		height: 90px;
 	}
 
+	.cloud{
+		background: url('../assets/img/ui/cloud.svg') no-repeat;
+		position: absolute;
+		width: 150px;
+		height: 50px;
+	}
+
+	.left-cloud{		
+		top: 56%;
+		left: 5%;
+	}
+
+	.right-cloud{		
+		top: 56%;
+		right: 5%;
+	}
+
 /******************************************************************/
 /* Tab */
 /******************************************************************/
@@ -64,6 +81,17 @@
 	.right-flag{
 		top: 32%;
 		right: 0%;
+	}
+
+
+	.left-cloud{		
+		top: 30%;
+		left: -10%;
+	}
+
+	.right-cloud{		
+		top: 30%;
+		right: -10%;
 	}
 }
 
@@ -98,6 +126,16 @@
 		top: 57%;
 		right: 0%;
 	}
+
+	.left-cloud{		
+		top: 30%;
+		left: -40%;
+	}
+
+	.right-cloud{		
+		top: 30%;
+		right: -40%;
+	}
 }
 
 /*******************************************************************************/
@@ -106,5 +144,14 @@
 @media (min-width: 400px) and (max-width: 767px){
 	.workImage{
 		padding-left: 35% !important;
+	}
+		.left-cloud{		
+		top: 30%;
+		left: -20%;
+	}
+
+	.right-cloud{		
+		top: 30%;
+		right: -20%;
 	}
 }
