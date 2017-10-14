@@ -161,6 +161,50 @@ button.message-button {
 	transition: all 0.5s;
 	display: block;
     margin: 0 auto;
+    background-color: #f6f9f8;
+    background-size: 319%;
+}
+
+.clip-circle-big {
+  clip-path: circle(74px at center);
+}
+
+
+
+.main-content-div {
+	padding: 0px !important;
+}
+
+/* Hi Text */
+.hi_desc {
+	margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    font-size: 17px;
+	margin-top: 25px;
+}
+
+.hi_sec {
+	font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	margin-bottom: 75px;
+}
+
+.hi_text {
+	margin: 0 auto;
+	width: 33px;
+	font-size: 2em;
+    color: #45b29a;
+}
+
+/*What Can I Do*/
+.whatCanIDo{
+	margin-top: 5%;
+}
+.headings{
+	color: #1e836c;
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 300;
 }
 
 button.message-button:hover {
@@ -258,4 +302,147 @@ footer{
 		padding-top: 6%;
 		padding-left: 5%;
 	}
+
+	.hiText{
+		margin: 0 auto;
+		width: 95% !important;
+	}
 }
+
+/* Stephen Media Queries */
+@media (max-width: 995px) {
+	.left-cloud {
+		top: 50%;
+		left: -8%;
+	}
+
+	.right-cloud {
+		top: 24%;
+		left: 82%;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	.mainImage .mountain-img {
+		padding: 0px;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		transition: all 1s;
+	}
+	.jumbotron {
+		background-color: #E0EBE8 !important;
+	}
+}
+@media (max-width: 450px) {
+	.right-cloud {
+		top: 24%;
+		left: 72%;
+	}
+	.left-cloud {
+		top: 62%;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	#im-sean {
+    	width: 60%;
+	}
+	.mainImage .mountain-img {
+		padding: 0px;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		transition: all 1s;
+	}
+	div .mainImage {
+		top: -6%;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		transition: all 5s;
+		float: none; 
+	}
+	.jumbotron {
+		background-color: #E0EBE8 !important;
+	}
+
+	.breaker{
+		margin-top: 15%;
+	}
+}
+
+
+/*Tab*/
+@media (max-width: 1023px){
+		.hiText{
+		margin: 0 auto;
+		width: 60%;
+	}
+}
+
+/* I Can Help */
+/* Stephen */
+button.message-button {
+	width: 200px;
+    height: 46px;
+	background-color: #45b29a;
+	color: #1b7f69;
+	border-color: transparent;
+	transition: all 0.5s;
+	display: block;
+    margin: 0 auto;
+}
+
+button.message-button:hover {
+	background-color: #3ea08a !important;
+	color: #1b7f69 !important;
+	border-color: transparent;
+	transition: all 0.5s;
+}
+
+.mail-me {
+	padding-right: 12px;
+}
+
+.mail-me-img {
+	padding-bottom: 3px;
+}
+
+.message-text {
+	text-transform: uppercase;
+	font-size: 16px;
+    font-weight: 300;
+	padding-right: 15px;
+	color: inherit;
+}
+
+.button-link:hover, .button-link:active, .button-link:focus, .button-link:visited {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+
+button a {
+	color: inherit;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+.help-text {
+	display: block;
+    width: 74%;
+    margin: auto;
+	font-size: 1.2em;
+}
+
+.marbot5 {
+	margin-bottom: 5%;
+}
+.marbot8 {
+	margin-bottom: 8% !important;
+}
+.current-text {
+	margin-bottom: 5%;
+	font-weight: 350 !important;
+}
+/* Santhosh 
