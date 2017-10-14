@@ -75,6 +75,12 @@ body{
 }
 
 
+.container-fluid {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+
 .header-image {
     background-image: url(../assets/img/content/nav/header-logo-i.svg);
     background-position: -3% -8%;
@@ -139,95 +145,21 @@ body{
 }
 /*******************************************************************************/
 
-/*Main Image*/
-/*Santhosh */
-.mainImage{
-	padding: 0 !important;
-	margin: 0 -15px !important;
-	transition: all 2s;
+/*******************************************************************************/
+/*CanIHelp*/
+/*******************************************************************************/
+.iCanHelp{
+	padding-bottom: 5%;
 }
 
-.mainImage img{
-}
-
-/*Stephen*/
-.container-fluid {
-	padding-left: 0px !important;
-	padding-right: 0px !important;
-}
-
-#im-sean {
-    display: block;
-    margin: 0 auto;
-    padding-top: 217px;
-}
-
-p.im-sean-text.text-center {
-    margin-top: 38px;
-    color: #45b29a;
-}
-
-.cloud {
-	position: absolute;
-	background-image: url('../assets/img/ui/cloud.svg');
-	width: 150px;
-    height: 43px;
-	transition: all 0.5s ease-in-out;
-}
-
-.left-cloud {
-	top: 47%;
-    left: 18%;
-}
-
-.right-cloud {
-    top: 30%;
-    left: 72%;
-}
-
-.jumbotron {
-	background-color: #E0EBE8 !important;
-}
-
-/*Main Content*/
-.mainContent{
-	background-color: white;
-	padding-top: 2.5%;
-}
-/*Santhosh*/
-.breaker{
-	margin: 7.5% 0;
-}
-
-.dots{
-	width: fit-content;
-	margin: 0 auto;
-}
-
-.dots img{
-	display: inline;
-
-
-}
-
-
-/*Hi Section*/
-h3{
-	font-size: 2em;
-	font-weight: 600 !important;
-	color: #45b29a !important;
-	margin-bottom: 5% !important;
-}
-.seanText{
-	font-size: 1.4em;
-}
-/*Stephen*/
-.main-content-image {
-    width: 15em !important;
-    background-image: url(../assets/img/content/nav/header-logo-i.svg);
-    background-position: -9% -23%;
-    background-repeat: no-repeat;
-    height: 16em;
+button.message-button {
+	width: 200px;
+    height: 46px;
+	background-color: #45b29a;
+	color: #1b7f69;
+	border-color: transparent;
+	transition: all 0.5s;
+	display: block;
     margin: 0 auto;
     background-color: #f6f9f8;
     background-size: 319%;
@@ -274,83 +206,46 @@ h3{
     font-size: 3.5em;
     font-weight: 300;
 }
-.circle{
-	background-color: #E0EBE8;
-	width: 77px !important;
-	height: 77px !important;
-	border-radius: 100px;
-	border: 1px solid #E0EBE8;
-	background: url('../assets/img/content/home/what-i-do/design-icons-vert.png') no-repeat;
-	transition: all 2s;
-	display: inline-block;
-	margin-top: -25px;
-	padding-left: 0px !important;
 
+button.message-button:hover {
+	background-color: #3ea08a !important;
+	color: #1b7f69 !important;
+	border-color: transparent;
+	transition: all 0.5s;
 }
 
-.circleNext{
-	background-position: 0% 50%;
+.mail-me {
+	padding-right: 12px;
 }
 
-.circleAnother{
-	background-position: 0% 98%;
+.mail-me-img {
+	padding-bottom: 3px;
 }
 
-.dotpos{
-	margin: 12% 0;
-	margin-left: -28px !important;
-}
-.whatCanIDo .dots{
-	/*position: relative;*/
-	/*top: 105px;
-	left: -45px;*/
-
+.message-text {
+	text-transform: uppercase;
+	font-size: 16px;
+    font-weight: 300;
+	padding-right: 15px;
+	color: inherit;
 }
 
-.whatCanIDo .dots img{	
-	margin-right: -8px;
+.button-link:hover, .button-link:active, .button-link:focus, .button-link:visited {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
 }
 
-.whatCanIDo .image{
-	margin: 6% 0;
-	
-}
-/*What can i do section 2*/
-.whatCanIDo .text, .whatCanIDo .image{
-	outline: solid;
-}
-.whatCanIDo .text{
-	margin: 5% 0;
+button a {
+	color: inherit;
 }
 
-.image .dotsOver{
-	background-image: url('../assets/img/content/home/what-i-do/line-bg.png');
-	background-repeat: repeat-x;
-	background-size: 30px 10px;
-	background-position: 50% 25%;
-	width: 50px;
-	height: 25px;
+*:focus {
+    outline: none !important;
 }
-
-.sprint2{
-	background-image: url('../assets/img/content/home/what-i-do/dev-icons-vert.png') !important;
-	background-repeat: no-repeat;
-	margin: 40px 50px 0 0;
-
-}
-
-.me-dev{
-	background: url('../assets/img/content/home/what-i-do/me-dev.svg') no-repeat;
-	background-size: contain;
-	width: 145px;
-	height: 185px;
-}
-
-/*Can I Help*/
-.iCanHelp{
-	padding-bottom: 5%;
-}
-
+/*******************************************************************************/
+/*Footer */
+/*******************************************************************************/
 /*Footer*/
 footer{
 	background-color: #c5ded7;
@@ -393,14 +288,19 @@ footer{
 	color: #45b29a;
 	border-bottom: 1px solid black;
 }
-/*Mobile*/
-@media (max-width: 767px){
-	.nav li a{
+
+/*********************************************************************/
+/* Mobile */
+/*********************************************************************/
+@media(max-width: 767px){
+		.nav li a{
 		font-size: 100%;
 	}
 
 	.header{
 		padding-left: 1%;
+		padding-top: 6%;
+		padding-left: 5%;
 	}
 
 	.hiText{

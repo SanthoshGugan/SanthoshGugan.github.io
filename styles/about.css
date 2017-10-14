@@ -1,0 +1,285 @@
+
+/*Main Image*/
+/*Santhosh */
+.mainImage{
+	padding: 0 !important;
+	margin: 0 -15px !important;
+	transition: all 2s;
+}
+
+.mainImage img{
+}
+
+#im-sean {
+    display: block;
+    margin: 0 auto;
+    padding-top: 217px;
+}
+
+p.im-sean-text.text-center {
+    margin-top: 38px;
+    color: #45b29a;
+}
+
+.cloud {
+	position: absolute;
+	background-image: url('../assets/img/ui/cloud.svg');
+	width: 150px;
+    height: 43px;
+	transition: all 0.5s ease-in-out;
+}
+
+.left-cloud {
+	top: 47%;
+    left: 18%;
+}
+
+.right-cloud {
+    top: 30%;
+    left: 72%;
+}
+
+.jumbotron {
+	background-color: #E0EBE8 !important;
+}
+
+/*Main Content*/
+.mainContent{
+	background-color: white;
+	padding-top: 2.5%;
+}
+/*Santhosh*/
+.breaker{
+	margin: 7.5% 0;
+}
+
+.dots{
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.dots img{
+	display: inline;
+
+
+}
+
+
+/*Hi Section*/
+h3{
+	font-size: 2em;
+	font-weight: 600 !important;
+	color: #45b29a !important;
+	margin-bottom: 5% !important;
+}
+.seanText{
+	font-size: 1.4em;
+}
+/*Stephen*/
+.main-content-image {
+    width: 15em !important;
+    background-image: url(../assets/img/content/nav/header-logo-i.svg);
+    background-position: -9% -23%;
+    background-repeat: no-repeat;
+    height: 16em;
+    margin: 0 auto;
+    background-color: #f6f9f8;
+    background-size: 319%;
+}
+
+.clip-circle-big {
+  clip-path: circle(74px at center);
+}
+
+
+
+.main-content-div {
+	padding: 0px !important;
+}
+
+/* Hi Text */
+.hi_desc {
+	margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    font-size: 17px;
+	margin-top: 25px;
+}
+
+.hi_sec {
+	font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	margin-bottom: 75px;
+}
+
+.hi_text {
+	margin: 0 auto;
+	width: 33px;
+	font-size: 2em;
+    color: #45b29a;
+}
+
+/*What Can I Do*/
+.whatCanIDo{
+	margin-top: 5%;
+}
+.headings{
+	color: #1e836c;
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 400;
+}
+.circle{
+	background-color: #E0EBE8;
+	width: 77px !important;
+	height: 77px !important;
+	border-radius: 100px;
+	border: 1px solid #E0EBE8;
+	background: url('../assets/img/content/home/what-i-do/design-icons-vert.png') no-repeat;
+	transition: all 2s;
+	display: inline-block;
+	margin-top: -25px;
+	padding-left: 0px !important;
+
+}
+
+.circleNext{
+	background-position: 0% 50%;
+}
+
+.circleAnother{
+	background-position: 0% 98%;
+}
+
+.dotpos{
+	margin: 12% 0;
+	margin-left: -28px !important;
+}
+.whatCanIDo .dots{
+	/*position: relative;*/
+	/*top: 105px;
+	left: -45px;*/
+
+}
+
+.whatCanIDo .dots img{	
+	margin-right: -8px;
+}
+
+.whatCanIDo .image{
+	margin: 6% 0;
+	
+}
+/*What can i do section 2*/
+.whatCanIDo .text, .whatCanIDo .image{
+	outline: solid;
+}
+.whatCanIDo .text{
+	margin: 5% 0;
+}
+
+.image .dotsOver{
+	background-image: url('../assets/img/content/home/what-i-do/line-bg.png');
+	background-repeat: repeat-x;
+	background-size: 30px 10px;
+	background-position: 50% 25%;
+	width: 50px;
+	height: 25px;
+}
+
+.sprint2{
+	background-image: url('../assets/img/content/home/what-i-do/dev-icons-vert.png') !important;
+	background-repeat: no-repeat;
+	margin: 40px 50px 0 0;
+
+}
+
+.me-dev{
+	background: url('../assets/img/content/home/what-i-do/me-dev.svg') no-repeat;
+	background-size: contain;
+	width: 145px;
+	height: 185px;
+}
+
+
+
+
+/*Mobile*/
+@media (max-width: 767px){
+
+
+	.hiText{
+		margin: 0 auto;
+		width: 95% !important;
+	}
+}
+
+/* Stephen Media Queries */
+@media (max-width: 995px) {
+	.left-cloud {
+		top: 50%;
+		left: -8%;
+	}
+
+	.right-cloud {
+		top: 24%;
+		left: 82%;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	.mainImage .mountain-img {
+		padding: 0px;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		transition: all 1s;
+	}
+	.jumbotron {
+		background-color: #E0EBE8 !important;
+	}
+}
+@media (max-width: 450px) {
+	.right-cloud {
+		top: 24%;
+		left: 72%;
+	}
+	.left-cloud {
+		top: 62%;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	#im-sean {
+    	width: 60%;
+	}
+	.mainImage .mountain-img {
+		padding: 0px;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		transition: all 1s;
+	}
+	div .mainImage {
+		top: -6%;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		transition: all 5s;
+		float: none; 
+	}
+	.jumbotron {
+		background-color: #E0EBE8 !important;
+	}
+
+	.breaker{
+		margin-top: 15%;
+	}
+}
+
+
+/*Tab*/
+@media (max-width: 1023px){
+		.hiText{
+		margin: 0 auto;
+		width: 60%;
+	}
+}
+
+
