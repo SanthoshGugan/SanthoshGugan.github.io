@@ -272,7 +272,7 @@ h3{
 	color: #1e836c;
     text-align: center;
     font-size: 3.5em;
-    font-weight: 400;
+    font-weight: 300;
 }
 .circle{
 	background-color: #E0EBE8;
@@ -528,4 +528,21 @@ button a {
     outline: none !important;
 }
 
+.help-text {
+	display: block;
+    width: 74%;
+    margin: auto;
+	font-size: 1.2em;
+}
+
+.marbot5 {
+	margin-bottom: 5%;
+}
+.marbot8 {
+	margin-bottom: 8% !important;
+}
+.current-text {
+	margin-bottom: 5%;
+	font-weight: 350 !important;
+}
 /* Santhosh 
