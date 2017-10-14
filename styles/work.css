@@ -8,7 +8,8 @@
 /****************************************************************************/
 	.mainImage{
 		width: 100%;
-		height: 430px;
+		height: 280px;
+		margin-top: 110px;
 		position: relative;
 	}
 
@@ -22,17 +23,18 @@
 	}
 
 	.left-flag{
-		top: 65%;
+		top: 46%;
 	    left: 25%;
 	}
 
 	.right-flag{
-		top: 65%;
+		top: 46%;
 		right: 25%;
 	}
 
 	.workImage{
-		padding: 17% 41%;
+		margin: auto 0;
+		padding: 5% 44%;
 	}
 
 	.workImage img{
@@ -40,46 +42,69 @@
 		height: 90px;
 	}
 
+/******************************************************************/
+/* Tab */
+/******************************************************************/
+@media(max-width: 1023px) and (min-width: 768px){
+	/*Main Image*/
+	.mainImage{
+		height: 218px;
+		margin-top: 90px;
+	}
+
+	.mainImage .flag{
+		height: 110px;
+	}
+
+	.left-flag{
+		top: 32%;
+		left: 0%;
+	}
+
+	.right-flag{
+		top: 32%;
+		right: 0%;
+	}
+}
 
 /******************************************************************/
 /* mobile*/
 /******************************************************************/
 @media (max-width: 767px){
-	/*Main Imagw*/
+	/*Main Image*/
 	.mainImage{
-		height: 312px;
+		height: 218px;
+		margin-top: 85px;
 	}
 
 	.mainImage .workImage{
-		padding: 56% 25%;
-	}
-
-	.workImage img{
-		width: 135px;
-		height: 90px;
-	}
-}
-
-/******************************************************************/
-/* Tab */
-/******************************************************************/
-@media(max-width: 1023px){
-	/*Main Image*/
-	.mainImage{
-		height: 312px;
+		padding: 80px 25% 0;
 	}
 
 	.mainImage .flag{
 		height: 93px;
 	}
 
+	.workImage img{
+		width: 135px;
+		height: 90px;
+	}
 	.left-flag{
-		top: 70%;
+		top: 57%;
 		left: 0%;
 	}
 
 	.right-flag{
-		top: 70%;
+		top: 57%;
 		right: 0%;
+	}
+}
+
+/*******************************************************************************/
+/* Mid Devices mobile to tab transitions*/
+/*******************************************************************************/
+@media (min-width: 400px) and (max-width: 767px){
+	.workImage{
+		padding-left: 35% !important;
 	}
 }
