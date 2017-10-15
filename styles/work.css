@@ -74,9 +74,6 @@
 a, a:hover, a:focus, a:visited {
 	text-decoration: none !important;
 }
-.work-sec-text {
-
-}
 .work-text {
 	display: block;
     width: 40%;
@@ -105,7 +102,8 @@ button.dribble-button:hover {
 }
 
 .lazyload {
-	margin-top: 4%;
+	margin-top: 4% !important;
+	margin: auto;
 }
 
 #table {
@@ -152,6 +150,15 @@ button.dribble-button:hover {
     background: #679895;
 	color: #fff;
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 800px) {
+/* Styles */
+	.work-text {
+		width: 80%;
+	}
+}
+
 
 /******************************************************************/
 /* Main Image  */
