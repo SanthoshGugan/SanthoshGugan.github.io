@@ -61,4 +61,8 @@ function init(){
 	intervalID2 = window.setInterval(changeSprint2Position,9000);
 }
 
+window.addEventListener("load", function(event) {
+    lazyload();
+});
+
 window.onload = init();
