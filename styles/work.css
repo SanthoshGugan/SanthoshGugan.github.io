@@ -1,5 +1,6 @@
-.body{
+body{
 	background-color: #545454;
+	overflow-x: hidden !important;
 }
 
 .whiteBg{
