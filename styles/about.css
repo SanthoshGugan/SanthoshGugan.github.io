@@ -120,6 +120,16 @@ p.im-sean-text.text-center {
     font-size: 3.5em;
     font-weight: 400;
 }
+
+.pos{
+	position: relative;
+	top: 7em;
+}
+
+.images{
+	background: url('../assets/img/ui/line-bg.png') repeat-x;
+	background-position: center center;
+}
 .circle{
 	background-color: #E0EBE8;
 	width: 77px !important;
