@@ -61,6 +61,93 @@
 		top: 56%;
 		right: 5%;
 	}
+/******************************************************************/
+/* Work Images  */
+/******************************************************************/
+.work-main-text {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 400;
+	margin-top: 4%;
+}
+.work-sec-text {
+
+}
+.work-text {
+	display: block;
+    width: 40%;
+	font-size: 1.2em;
+	margin: 3% auto;
+}
+
+button.dribble-button {
+	width: 200px;
+    height: 46px;
+	background-color: #45b29a;
+	color: #1b7f69;
+	border-color: transparent;
+	transition: all 0.5s;
+	display: block;
+    margin: 0 auto;
+	margin-bottom: 5%;
+	text-transform: uppercase;
+}
+
+button.dribble-button:hover {
+	background-color: #3ea08a !important;
+	color: #1b7f69 !important;
+	border-color: transparent;
+	transition: all 0.5s;
+}
+
+.lazy {
+	margin-top: 4%;
+}
+
+#table {
+	background-color: #7dcc93;
+	color: #fff;
+}
+
+#employify {
+	background: #f76160;
+	color: #fff;
+}
+
+#origami {
+	background: #31355b;
+	color: #fff;
+}
+
+#journey {
+    background: #f8c687;
+	color: #fff;
+}
+
+#sherpa {
+	background: #21364b;
+	color: #fff;
+}
+
+#realtii {
+    background: #E29470;
+	color: #fff;
+}
+
+#trizic {
+    background: #66A7D5;
+	color: #fff;
+}
+
+#retrolove {
+    background: #FA6D68;
+	color: #fff;
+}
+
+#textking {
+    background: #679895;
+	color: #fff;
+}
 
 /******************************************************************/
 /* Main Image  */

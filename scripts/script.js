@@ -61,4 +61,6 @@ function init(){
 	intervalID2 = window.setInterval(changeSprint2Position,9000);
 }
 
+$("img .lazy").lazyload();
+
 window.onload = init();
