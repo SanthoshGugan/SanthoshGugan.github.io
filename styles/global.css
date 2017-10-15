@@ -72,6 +72,10 @@ table {
 .outline{
 	outline: solid;
 }
+
+.whiteBg{
+	background-color: white;
+}
 /*Default body styles from sean haplin website*/
 body{
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
@@ -258,6 +262,22 @@ button a {
 
 *:focus {
     outline: none !important;
+}
+
+/*Santhosh*/
+.breaker{
+	margin: 7.5% 0;
+}
+
+.dots{
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.dots img{
+	display: inline;
+
+
 }
 /*******************************************************************************/
 /*Footer */
