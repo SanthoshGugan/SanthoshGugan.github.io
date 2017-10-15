@@ -65,4 +65,16 @@ window.addEventListener("load", function(event) {
     lazyload();
 });
 
+var disqus_shortname  = 'seanhalpin'; // required: replace example with your forum shortname
+var disqus_title      = 'Notes';
+var disqus_developer  = 'false'; // developer mode
+var disqus_identifier = 'notes';
+var disqus_url        = 'http://seanhalpin.io/notes';
+
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+
 window.onload = init();
