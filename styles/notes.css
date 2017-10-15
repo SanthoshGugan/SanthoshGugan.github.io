@@ -1,0 +1,206 @@
+.body{
+	background-color: #545454;
+}
+
+.whiteBg{
+	background-color: white !important;
+}
+
+/****************************************************************************/
+/* Disqus */
+/****************************************************************************/
+.disqus {
+	width: 65% !important;
+}
+
+.comments-wrap {
+	background-color: #F0F0F0!important;
+}
+/****************************************************************************/
+/* Main Image*/
+/****************************************************************************/
+	.mainImage{
+		width: 100%;
+		height: 280px;
+		margin-top: 110px;
+		position: relative;
+	}
+
+	.mainImage .flag{
+		position: absolute;
+		display: inline;
+	    background: url(../assets/img/content/home/masthead/flag.svg) no-repeat;
+	    width: 50px;
+	    height: 150px;
+	    transition: all 0.5s ease-in-out;
+	}
+
+	.left-flag{
+		top: 46%;
+	    left: 25%;
+	}
+
+	.right-flag{
+		top: 46%;
+		right: 25%;
+	}
+
+	.workImage{
+		margin: auto 0;
+		padding: 5% 44%;
+	}
+
+	.workImage img{
+		width: 200px;
+		height: 90px;
+	}
+
+	.cloud{
+		background: url('../assets/img/ui/cloud.svg') no-repeat;
+		position: absolute;
+		width: 150px;
+		height: 50px;
+	}
+
+	.left-cloud{		
+		top: 56%;
+		left: 5%;
+	}
+
+	.right-cloud{		
+		top: 56%;
+		right: 5%;
+	}
+/******************************************************************/
+/* Main Image  */
+/******************************************************************/
+	/*whatIHaveBeen*/
+		.whatIHaveBeen{
+			margin: 50px auto;
+			text-align: center;
+		}
+
+		.pencilWrapper{
+			width: 150px;
+		    height: 150px;
+		    margin: 0 auto;
+		    background: url('../assets/img/content/home/work/pencil.svg') no-repeat;
+		    background-size: cover;
+		}
+
+		.whatIHaveBeen .seanText{
+			padding: 0 10%;
+		}
+
+		.whatIHaveBeen .seanText a{
+			border-bottom: 1px solid #45b29a;
+			margin-bottom: 3px;
+			text-decoration: none;
+			color: #45b29a;
+			transition: all 0.5s;
+		}
+
+		.whatIHaveBeen .seanText a:hover{
+			border-bottom: 1px solid #29685a;
+			color: #29685a;
+		}
+
+/******************************************************************/
+/* Tab */
+/******************************************************************/
+@media(max-width: 1023px) and (min-width: 768px){
+	/*Main Image*/
+	.mainImage{
+		height: 218px;
+		margin-top: 90px;
+	}
+
+	.mainImage .flag{
+		height: 110px;
+	}
+
+	.left-flag{
+		top: 32%;
+		left: 0%;
+	}
+
+	.right-flag{
+		top: 32%;
+		right: 0%;
+	}
+
+
+	.left-cloud{		
+		top: 30%;
+		left: -10%;
+	}
+
+	.right-cloud{		
+		top: 30%;
+		right: -10%;
+	}
+	.whatIHaveBeen .seanText{
+		padding: 0 20%
+	}
+}
+
+/******************************************************************/
+/* mobile*/
+/******************************************************************/
+@media (max-width: 767px){
+	/*Main Image*/
+	.mainImage{
+		height: 218px;
+		margin-top: 85px;
+	}
+
+	.mainImage .workImage{
+		padding: 80px 25% 0;
+	}
+
+	.mainImage .flag{
+		height: 93px;
+	}
+
+	.workImage img{
+		width: 135px;
+		height: 90px;
+	}
+	.left-flag{
+		top: 57%;
+		left: 0%;
+	}
+
+	.right-flag{
+		top: 57%;
+		right: 0%;
+	}
+
+	.left-cloud{		
+		top: 30%;
+		left: -40%;
+	}
+
+	.right-cloud{		
+		top: 30%;
+		right: -40%;
+	}
+}
+
+/*******************************************************************************/
+/* Mid Devices mobile to tab transitions*/
+/*******************************************************************************/
+@media (min-width: 400px) and (max-width: 767px){
+	.workImage{
+		padding-left: 35% !important;
+	}
+		.left-cloud{		
+		top: 30%;
+		left: -20%;
+	}
+
+	.right-cloud{		
+		top: 30%;
+		right: -20%;
+	}
+}
