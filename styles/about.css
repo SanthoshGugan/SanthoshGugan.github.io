@@ -1,4 +1,6 @@
-
+body {
+	overflow-x: hidden;
+}
 /*Main Image*/
 /*Santhosh */
 .mainImage{
