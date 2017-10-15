@@ -65,8 +65,17 @@ table {
 .mR0{
 	margin-right: 0 !important;
 }
+
+.marT5P{
+	margin-top: 5%;
+}
+
 .padR5P{
 	padding-right: 5% !important;
+}
+
+.padT5P{
+	padding-top: 5%;
 }
 
 .outline{
@@ -285,7 +294,7 @@ button a {
 /*Footer*/
 footer{
 	background-color: #c5ded7;
-	padding: 3em 2em;
+	padding:2em;
 }
 
 
@@ -472,6 +481,8 @@ button a {
 }
 
 .marbot5 {
+	float: none;
+	margin: 0 auto;
 	margin-bottom: 5%;
 }
 .marbot8 {
