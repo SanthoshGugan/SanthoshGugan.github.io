@@ -65,6 +65,9 @@ table {
 .mR0{
 	margin-right: 0 !important;
 }
+.padR5P{
+	padding-right: 5% !important;
+}
 /*Default body styles from sean haplin website*/
 body{
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;

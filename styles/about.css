@@ -126,7 +126,7 @@ p.im-sean-text.text-center {
 	top: 7em;
 }
 
-.images{
+.dots {
 	background: url('../assets/img/ui/line-bg.png') repeat-x;
 	background-position: center center;
 }
@@ -173,25 +173,23 @@ p.im-sean-text.text-center {
 }
 /*What can i do section 2*/
 .whatCanIDo .text, .whatCanIDo .image{
-	outline: solid;
+	
 }
 .whatCanIDo .text{
 	margin: 5% 0;
 }
 
-.image .dotsOver{
+.images{
 	background-image: url('../assets/img/content/home/what-i-do/line-bg.png');
 	background-repeat: repeat-x;
-	background-size: 30px 10px;
-	background-position: 50% 25%;
-	width: 50px;
-	height: 25px;
+	background-size: 5px 3px;
+	background-position: center center;
 }
 
 .sprint2{
 	background-image: url('../assets/img/content/home/what-i-do/dev-icons-vert.png') !important;
 	background-repeat: no-repeat;
-	margin: 40px 50px 0 0;
+	margin: 25px 50px 0 0;
 
 }
 
@@ -199,7 +197,7 @@ p.im-sean-text.text-center {
 	background: url('../assets/img/content/home/what-i-do/me-dev.svg') no-repeat;
 	background-size: contain;
 	width: 145px;
-	height: 185px;
+	height: 128px;
 }
 
 
@@ -212,6 +210,25 @@ p.im-sean-text.text-center {
 	.hiText{
 		margin: 0 auto;
 		width: 95% !important;
+	}
+	.whatCanIDo .image{
+		margin: 0;
+		padding: 0 !important;
+	}
+
+	.whatCanIDo .image .sprint2{
+	    position: relative;
+		padding: 0;
+		margin-right: 0px;
+		margin-left: 50px;
+		z-index: 11;
+	}
+
+	.whatCanIDo .me-dev{
+		    position: absolute;
+		    top: 0;
+		    right: 3px;
+		    z-index: 10;
 	}
 }
 
